@@ -25,8 +25,8 @@ The screenshot of the solution is added in the images folder.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://groyal001.github.io/]
+- Live Site URL: [https://groyal001.github.io]
 
 ## My process
 

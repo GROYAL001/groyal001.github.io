@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-Grey: hsl(0, 0%, 12%);
+    --black: hsl(0, 0%, 8%);
+
+}
+
+body{
+    font-family:'Inter', Courier, monospace;
+    background-color: var(--black);
+    color:var(--white);
+    margin:0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-box{
+    background-color: var(--dark-Grey);
+    width: 360px;
+    margin: 2rem;
+    padding:2rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+}
+
+h1{
+    font-size: 1.5rem;
+    height:1.5rem;
+}
+
+h3{
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+    color:var(--green);
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+a{
+    color:var(--white);
+}
+a:link{
+    text-decoration: none;
+    color:var(--white);
+    font-weight: 600;
+    margin:.5rem;
+    padding:1rem;
+    border:0px solid;
+    border-radius: 8px;
+    background-color: var(--grey);
+    width: 80%;
+    text-align: center;
+
+}
+
+a:active, a:hover{
+    color:var(--dark-Grey);
+    background-color: var(--green);
+    
+}
+ img:hover{
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+
+@media only screen and (max-width: 400px) {
+    h2{
+        font-size: 0.8rem;
+        line-height: 0.75rem;
+    }
+}

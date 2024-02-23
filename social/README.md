@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/social-link-profile-5VMQvbpcei)
+- Live Site URL: (https://groyal001.github.io/social/)
 
 ## My process
 
@@ -46,5 +46,5 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- Website - [Gopal Tamang](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Gopal Tamang](https://www.gopaltamang.com.np)
+- Frontend Mentor - [@groyal001](https://www.frontendmentor.io/profile/GROYAL001)

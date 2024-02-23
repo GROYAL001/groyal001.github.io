@@ -21,7 +21,7 @@ body{
     margin:0;
     box-sizing: border-box;
     font-family: 'Outfit', Courier, monospace;
-    background-color: var(--secondary-color4);
+    background-color: var(--secondary-color3);
     display: flex;
     justify-content: center;
     line-height: 1.75rem;

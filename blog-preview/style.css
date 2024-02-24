@@ -1,0 +1,133 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+
+ */
+
+ :root{
+    /* colors  */
+    --primary-color: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --para-font-size: 16px;
+
+
+ }
+
+ body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Figtree', Helvetica, sans-serif;
+    background-color: var(--primary-color);
+
+ }
+
+ .blog-box{
+    max-width: 320px;
+    background-color: var(--white);
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* margin:auto 1.5rem; */
+    border-radius: 1.2rem;
+    border:2px solid black;
+    box-shadow:8px 8px 1px 0px #000000;
+    padding:1.4rem;
+    
+ }
+
+ img.blog-hero{
+    width: 100%;
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+ }
+ .blog-category{
+    font-weight: 800;
+    font-size: .65rem;
+    padding:.5rem;
+    background:var(--primary-color);
+    block-size: auto;
+    border-radius: .3rem;
+    margin-bottom: .8rem;
+    display: inline-block;
+ }
+
+ .blog-date{
+    margin-bottom: .8rem;
+    font-size: .75rem;
+    font-weight: 600;
+
+ }
+
+ .blog-title{
+    font-weight: 800;
+    margin-bottom: 1rem;
+ }
+
+ .blog-para{
+    color:var(--grey);
+    font-size: var(--para-font-size);
+    font-weight: 400;
+    margin-bottom: 1rem;;
+ }
+
+.author{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.author img{
+    width:40px;
+    height:40px;
+}
+
+.author span{
+    font-weight: 800;
+    font-size: .75rem;
+    margin-left:1rem;
+}
+
+.blog-box:hover , .blog-box:focus{
+    box-shadow:14px 14px 1px 0px #000000;
+}
+
+.blog-title:hover , .blog-title:focus{
+    color:var(--primary-color);
+}
+
+@media only screen and (max-width: 400px) {
+    .blog-box{
+        width: 70%;
+    }
+}

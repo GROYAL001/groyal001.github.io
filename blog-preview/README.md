@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-vFymZ-rpW3]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/blog-preview-card-vFymZ-rpW3))
 - Live Site URL: [https://groyal001.github.io/blog-preview](https://groyal001.github.io/blog-preview/)
 
 ## My process
